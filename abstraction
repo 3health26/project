@@ -1,0 +1,31 @@
+package Test;
+
+abstract class A {
+
+	// 50% implementation
+
+	abstract void print();
+
+	void eat() {
+		System.out.println("Eating");
+	}
+}
+
+class AbstractionPract extends A {
+
+	void eat() {
+		System.out.println("Eating");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void print() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
