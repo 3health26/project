@@ -1,0 +1,18 @@
+package Test;
+interface softwareEngineer{
+	public void Java();
+	public void toplevel();
+}
+class python implements softwareEngineer{
+	public void Java() {
+		System.out.println("Java is top rated job");
+	}
+	public void toplevel() {
+		System.out.println("Ranked number 1");
+	}}
+public class PractiseInterface{
+	public static void main(String[] args) {
+		python p = new python();
+		p.Java();
+		p.toplevel();
+	}}
