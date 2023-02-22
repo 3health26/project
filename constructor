@@ -1,0 +1,14 @@
+package Test;
+public class constructor{
+	int team;
+	String name;
+	constructor (int team, String name){
+		this.team = team;
+		this.name = name;	
+	}
+
+public static void main(String[] args) {
+	constructor myteam = new constructor (1, "Chicago");
+	System.out.println(myteam.name + " " + myteam.team);
+}
+}
