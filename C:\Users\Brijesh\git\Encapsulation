@@ -1,0 +1,23 @@
+package Test;
+
+public class encapsulation{
+	private String worldcup;
+	private int ranking;
+	public String getWorldcup() {
+		return worldcup;
+	}
+	public void setWorldcup(String worldcup) {
+		this.worldcup = worldcup;
+	}
+	public int getRanking() {
+		return ranking;
+	}
+	public void setRanking(int ranking) {
+		this.ranking = ranking;
+	}
+public static void main(String[] args) {
+	encapsulation e = new encapsulation();
+	e.setRanking(1);
+	e.setWorldcup("USA");
+	System.out.println(" the number" + " " + e.getRanking() + " ranking is" + e.getWorldcup());
+}}
