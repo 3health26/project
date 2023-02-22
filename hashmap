@@ -1,0 +1,16 @@
+package Test;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+public class Hashmap{
+	public static void main(String[] args) {
+		HashMap<String, String> m = new HashMap<String, String>();
+		m.put("1", "Memphis");
+		m.put("2", "Nashville");
+		System.out.println(m);
+		
+		for (String b: m.keySet()) {
+			System.out.println("key: " + b + " value: " + m.get(b));
+		}
+	}
+}
