@@ -1,0 +1,14 @@
+package Test;
+import java.util.Scanner;
+public class CheckIfEvenorOdd{
+	public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter Independece day");
+	int c = scan.nextInt();
+	
+	if (c % 5 == 0) {
+		System.out.println("USA");
+	}else
+		System.out.println("India");
+		
+}}
