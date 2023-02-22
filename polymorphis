@@ -1,0 +1,18 @@
+package Test;
+class days{
+	public void week() {
+	System.out.println("days of week");
+	}}
+class week extends days{
+	public void numberofweek() {
+		System.out.println("how many days");
+	}}
+public class polymorphis{
+	public static void main(String[] args) {
+	
+		days d = new days();
+		week w = new week();
+		d.week();
+		w.numberofweek();
+	}
+}
