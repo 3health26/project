@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+public class Calennder {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Month: ");
+		String monthName = sc.next();
+		System.out.println(monthName);
+		sc.close();
+
+		if (monthName.equals("January")) {
+			System.out.println("National Mentoring Month");
+		}
+
+		if (monthName.equals("February")) {
+			System.out.println("American Heart Month");
+		}
+
+		if (monthName.equals("March")) {
+			System.out.println("National Co lon Cancer Awareness Month");
+		}
+
+		if (monthName.equals("April")) {
+			System.out.println("Mathematics Awareness Month");
+		}
+
+		if (monthName.equals("May")) {
+			System.out.println("ALS Awareness Month");
+		}
+
+		if (monthName.equals("June")) {
+			System.out.println("National Safety Month");
+		}
+
+		if (monthName.equals("July")) {
+			System.out.println("National Ice Cream Month");
+		}
+
+		if (monthName.equals("August")) {
+			System.out.println("National Dog Month");
+		}
+
+		if (monthName.equals("September")) {
+			System.out.println("National Yoga Month");
+		}
+
+		if (monthName.equals("October")) {
+			System.out.println("Breast Cancer Awareness Month");
+		}
+
+		if (monthName.equals("November")) {
+			System.out.println("National Novel Writing Month");
+		}
+
+		if (monthName.equals("December")) {
+			System.out.println("National Human Rights Month");
+		}
+
+	}
+
+}
