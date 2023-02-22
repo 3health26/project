@@ -1,0 +1,28 @@
+package Test;
+
+abstract class store{
+	String kohls;
+	
+	public void cheap() {
+		System.out.println("low price");
+	}
+	
+	public abstract void diverse();
+}
+class shoes extends store{
+	public void Nike() {
+		System.out.println("great style");
+	}
+
+	@Override
+	public void diverse() {
+		// TODO Auto-generated method stub
+		
+	}}
+
+public class Abstract {
+	public static void main(String[] args) {
+		shoes s = new shoes();
+		s.cheap();
+		s.Nike();
+	}}
